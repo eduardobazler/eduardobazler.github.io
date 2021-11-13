@@ -1,91 +1,187 @@
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #f5f5f5;
+  background-color: #191d21;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.header {
-    text-align: center;
-    padding: 20px;
-    color: #0a7e51;
-    font-size: 20px;
-    background-color: #f5f5f5;
-
+.block-in-line {
+  display: inline-block;
 }
 
-.apresentacao {
-    padding: 10px;
-    text-align: center;
-    position: relative;
-    background-color: #f5f5f5;
-
+.clear {
+  clear: both;
 }
 
-.picture {
-    width: 250px;
-    border-radius: 4%;
-    
-
+.dar-header {
+  padding: 30px 0px;
+  color: #ffffff;
+  background-color: #000000;
+  font: 16px;
 }
 
-.apresentacao-esquerda{
-    float: left;
- 
-    margin-left: 20px;
-    width: 40%;
-    
+.container {
+  margin: 0px 50px;
+  padding: 0 30px;
 }
 
-.apresentacao-direita{
-   float: right;
-   padding: 20px;
-   margin-right: 100px; 
-   text-align: left;
-   margin-top: 40px;
-   line-height: 25px;
-   color: #475550;
-   width: 40%;
-   
-    
+.nome-principal {
+  color: #000000;
+  border: solid;
+  display: inline-block;
+  border-radius: 4px;
+  /* background-color: #ffffff; */
 }
 
-.apresentacao-direita a {
-    text-decoration: none;
-    font-style: italic;
-    color: #475550;
-    
-
+.nome-principal h1 {
+  padding: 0px 10px;
+  color: #f1c52a;
+  letter-spacing: -2px;
 }
 
-.clear{
-    clear: both;
+.nav-bar {
+  display: inline-block;
+  width: 60%;
+  margin: 0px 30px;
+  font-size: 30px;
+  text-align: center;
 }
 
-.referencia-botao{
-    text-align: left;
-    width: 400px;
-    padding-left: 100px;
-    margin-top: 60px;
+.nav-bar li {
+  list-style: none;
+  letter-spacing: -1px;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  font-size: 22px;
+  display: inline-block;
 }
 
-.button {
-    width: 400px;
-    background-color: #11a36a;
-    color: white;
-    padding: 10px 30px;
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 4px;
-    text-align: lef;
-    display: block;
-    margin: 20px auto;
-    font-size: 18px;
-  }
+nav a {
+  text-decoration: none;
+  color: unset;
+}
+
+nav a:hover {
+  color: #757575;
+}
+
+.main-foto {
+  padding: 30px 50px;
+  /* display: inline-block; */
+  margin: 5px;
+  float: left;
+}
+
+.main-foto img {
+  width: 350px;
+  border-radius: 4px;
+}
+
+.main-text {
+  width: 600px;
+  padding: 30px 10px;
+  margin: 20px 10px;
+}
+
+.main-text p {
+  color: #bdbdbd;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+hr {
+  margin: 0px 30px;
+  color: #f1c52a;
+  border: solid;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+}
 
 .lista-habilidades {
-    padding: 50px 100px;
+  padding: 30px 70px;
+}
+
+.lista-habilidades h3 {
+  color: #03A9F4;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.lista-habilidades ul {
+  margin-left: 15px;
+  list-style: square;
+  padding: 10px 15px;
+}
+
+.lista-habilidades li {
+  font-size: 20px;
+  color: #bdbdbd;
+  margin-bottom: 8px;
+}
+
+.curiosidades {
+  padding: 30px 30px;
+}
+
+.curiosidades h4 {
+  color: #BBDEFB;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.curiosidades ol {
+  margin-left: 40px;
+  list-style: square;
+  padding: 10px 15px;
+}
+
+.curiosidades li {
+  font-size: 20px;
+  color: #bdbdbd;
+  margin-bottom: 8px;
+}
+
+.titulo-curiosidades {
+  color: #03A9F4;
+  font-size: 30px;
+  margin-left: 38px;
+  margin-bottom: 30px;
+}
+
+i {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #f1c52a;
+  margin-top: 10px;
+  padding: 40px 40px;
+}
+
+.text-hist {
+  width: 600px;
+  padding: 30px 10px;
+  margin: 20px 10px;
+}
+
+.text-hist p {
+  color: #bdbdbd;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+  
+}
+
+.titulo-hist {
+  color: #03A9F4;
+  padding: 0px 30px;
+  font-size: 30px;
+}
+
+.footer h3{
+    display: inline-block;
+    padding: 10px;
 }
