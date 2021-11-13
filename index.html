@@ -1,77 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="fontawesome/css/all.css" rel="stylesheet">
     <title>Eduardo Bazler</title>
   </head>
+  
   <body>
-    <h1>Eduardo Bazler</h1>
+    <header class="dar-header">
+      <div class="container">
+        <div class="nome-principal">
+          <h1>Eduardo Bazler</h1>
+        </div>
+        <nav class="nav-bar">
+          <div>
+            <ul>
+              <li><a href="#quem-sou-eu">Quem sou eu?</a></li>
+              <li><a href="#lista-habilidades">Habilidades</a></li>
+              <li><a href="#historia">História</a></li>
+              <li><a href="#curiosidades">Gostos</a></li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-foto">
+        <img src="imagens/edu.jpg" alt="Foto de Eduardo Bazler">
+      </div>
+      <article class="block-in-line">
+        <div class="main-text" id="quem-sou-eu" >
+          <p>
+            Estudante de desenvolvimento Web na escola Trybe, matriculado na
+            Turma XP.
+            <br>
+            <br />
+            E estou no primeiro semestre do curso de Ciência da Computação na
+            UDESC.
+            <br>
+            <br />
+            Sou uma pessoa que está sempre a procura de novos desafios.
+          </p>
+        </div>
+      </article>
+      <div class="clear"></div>
+    </main>
+    <section>
+      <hr>
+      <article id='lista-habilidades' class="lista-habilidades">
+        <div>
+          <h3>Lista de Habilidades:</h3>
+          <ul>
+            <li>Comunicação assertiva.</li>
+            <li>Trabalho em equipe.</li>
+            <li>Comprometimento.</li>
+            <li>Colaboração.</li>
+            <li>Git.</li>
+            <li>Python.</li>
+            <li>Django.</li>
+            <li>Lingagem C.</li>
+            <li>Inglês intermediário.</li>
+            <li>Proatividade.</li>
+          </ul>
+        </div>
+      </article>
+      <hr>
+      <article id="curiosidades" class="curiosidades">
+        <div>
+          <div>
+            <h3 class="titulo-curiosidades">Algumas curiosidades, como livros, filmes e séries preferidas:</h3>
+            <ol>
+                <h4 >Meus 5 livros preferidos:</h4>
+                <li><strong>Cem Anos de Solidão</strong>, <i><u>García Márquez</u></i></li>
+                <li>
+                  <strong>Sapiens - Uma Breve História da Humanidade</strong>, <i><u>Yuval
+                    Harari</u></i>
+                </li>
+                <li><strong>A Cabana</strong>, <i><u>William P. Young</u></i></li>
+              <li><strong>Demian</strong>, <i><u> Hesse</i></u></li>
+              <li>
+                <strong
+                  >Astrofísica Para Gente Com Pressa: Uma Viagem Rápida Ao
+                  Cosmos</strong
+                >, <i><u>Neil deGrasse Tyson</u></i>
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div>
+            <ol>
+              <h4>5 Séries preferidas:</h4>
+              <li><strong>Cosmos: A Spacetime Odyssey</strong></li>
+              <li><strong>modern family</strong></li>
+              <li><strong>The Big Bang theory</strong></li>
+              <li><strong>Friends</strong></li>
+              <li><strong>Atypical</strong></li>
+            </ol>
+          </div>
+        </div>
+      </article>
+      <hr>
+      <article class="curiosidades">
+        <div>
+          <h3 id="historia" class="titulo-hist">Um pouco da minha hsitŕoa até aqui:</h3>
+          <div class="text-hist">
+            <p>Aqui vou colocar um pouco sobre a minha história</p>
+          </div>
+        </div>
+      </article>
 
-    <img
-      src="imagens/eduardo.jpg"
-      alt="foto de Eduardo Bazler"
-      width="200px;"
-    />
-
-    <p>
-      <strong
-        >Estudante de desenvolvimento Web na escola Trybe, matriculado na Turma
-        XP.
-        <br />
-        E estou no primeiro semestre do curso de Ciência da Computação na UDESC.
-        <br />
-        Sou uma pessoa que está sempre a procura de novos desafios.
-      </strong>
-    </p>
-
-    <a href="https://www.linkedin.com/in/eduardo-bazler-782495127/" target="_blanck">Linkedin - Eduardo Bazler</a>
-
-    <hr>
-    <ul>
-      <li><a href="#principais_habilidades" >Principais habillidades</a></li>
-      <li><a href="#Outras_habilidades">Outras habilidades</a></li>
-    </ul>
-    <hr>
-    <ul id= principais_habilidades>
-      <h3>Principais habilidades:</h3>
-      <li>Comunicação assertiva.</li>
-      <li>Trabalho em equipe.</li>
-      <li>Comprometimento.</li>
-      <li>Colaboração.</li>
-    </ul>
-    <br>
-    <hr>
-    <ul id="Outras_habilidades">
-        <h3>Outras habilidades:</h3>
-        <li>Git.</li>
-        <li>Python.</li>
-        <li>Django.</li>
-        <li>Lingagem C.</li>
-        <li>Inglês intermediário.</li>
-        <li>Proatividade.</li>
-      </ul>
-    
-    <hr>
-    <h3>Algumas curiosidades, como livros, filmes e séries preferidas:</h3>
-    <ol> <h4> Meus 5 livros preferidos:</h4>
-        <li><strong>Cem Anos de Solidão</strong>, Gabriel García Márquez</li>
-        <li><strong>Sapiens - Uma Breve História da Humanidade</strong>, Yuval Harari</li>
-        <li><strong>A Cabana</strong>, William P. Young</li>
-        <li><strong>Demian</strong>, Hermann Hesse</li>
-        <li><strong>Astrofísica Para Gente Com Pressa: Uma Viagem Rápida Ao Cosmos</strong>, Neil deGrasse Tyson</li>
-        
-    </ol>
-    <br>
-    <ol> <h4> 5 Séries preferidas:</h4>
-        <li><strong>Cosmos: A Spacetime Odyssey</strong></li>
-        <li><strong>modern family</strong></li>
-        <li><strong>The Big Bang theory</strong></li>
-        <li><strong>Friends</strong></li>
-        <li><strong>Atypical</strong></li>
-        
-    </ol>
-
+    </section>
+    <footer class="footer">
+      
+      <div>
+        <h3>Contato:</h3>
+        <a href="https://www.linkedin.com/in/eduardo-bazler-782495127/">linkedin - Eduardo Bazler</a>
+      </div>
+    </footer>
   </body>
+
 </html>
