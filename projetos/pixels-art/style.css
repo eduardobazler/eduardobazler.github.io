@@ -1,0 +1,42 @@
+.color {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: solid 1px;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#title {
+  text-align: center;
+  padding: 20px 30px;
+  color: #03a9f4;
+  font-size: 40px;
+  background-color: black;
+  margin-top: 0px;
+}
+
+main {
+  width: 210px;
+  line-height: 0px;
+  text-align: center;
+  margin: auto;
+}
+
+#color-palette {
+  text-align: center;
+  padding: 10px 30px;
+}
+
+#color-palette li {
+  border-radius: 100%;
+}
+
+#pixel-board {
+  margin-top: 20px;
+}
